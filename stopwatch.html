@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    
+    body{
+        background-color: black;
+        color: wheat;
+        text-align: center;
+        font-size: xx-large;
+        width: 100%;
+
+    }
+
+    #head {
+        display: inline-block;
+        width: 10%;
+       margin-right: 15%;
+       
+    }
+  .time{
+    display: inline-block;
+    padding: 2%;
+  }
+
+    .btn {
+        height: 100px;
+        width: 100px;
+        color: white;
+        background-color: black;
+        border: 3px solid blue;
+        border-radius: 50px;
+        font-size: x-large;
+   
+    }
+</style>
+
+<body>
+   
+   
+        <div id="head">
+            <h1>STOPWATCH</h1>
+        </div>
+        <div>
+            <h1 id="min" class="time">0</h1>
+            <h1 id="min" class="time">:</h1>
+            <h1 id="sec" class="time">0</h1>
+            <h1 id="min" class="time">:</h1>
+            <h1 id="msec" class="time">0</h1>
+        </div>
+        <div>
+            <button onclick="start()" class="btn" id="str">Start</button>
+            <button onclick="pause()" class="btn" id="pau">Pause</button>
+            <button onclick="reset()" class="btn" id="rest">Reset</button>
+        </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

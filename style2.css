@@ -1,0 +1,87 @@
+body{
+    background-image: url('./img/abstract-background-camera-flies-past-260nw-733632979.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+margin: 0%;
+padding: 0%;
+text-align: center;
+
+}
+
+.h{
+    background-color: gold;
+    text-align: center;
+}
+#main{
+
+border:5px solid black;
+width: 25%;
+border-radius: 10px;
+margin: 10px auto;  
+      
+}
+
+   
+   #screen{
+    border: 3px solid black;
+    width: 92%;
+    color:gray;
+    border-radius: 5px;
+    height: 50px;
+     font-size: xx-large;
+     margin-left:4px;
+     background-color: black;
+     margin-top: 10px;
+   
+   }
+.one{
+    color:white;
+    border-radius: 5px;
+    height: 60px;
+    width: 22%;
+     font-size: xx-large;
+     background-color: black;
+     text-align: center;
+    margin: 0.5%;
+   
+}
+.two{
+    color:white;
+    border-radius: 5px;
+    height: 60px;
+     font-size: xx-large;
+     background-color: black;
+     text-align: center;
+     width: 30%;
+     margin: 0.5%;
+}
+.thr{
+    color:white;
+    border-radius: 5px;
+    height: 60px;
+     font-size: xx-large;
+     background-color: black;
+     text-align: center;
+     width: 30%;
+     margin: 0.5%;
+}
+.four{
+    color:white;
+    border-radius: 5px;
+    height: 60px;
+     font-size: xx-large;
+     background-color: black;
+     text-align: center;
+     width: 30%;
+     margin: 0.5%;
+}
+.five{
+    color:white;
+    border-radius: 5px;
+    height: 60px;
+     font-size: xx-large;
+     background-color: black;
+     text-align: center;
+     width: 30%;
+     margin: 0.5%;
+}

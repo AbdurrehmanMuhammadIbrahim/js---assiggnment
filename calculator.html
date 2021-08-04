@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+  
+    <div id="main">
+        <div>
+            <input type="text" id="screen">
+        </div>
+
+        <div id="one">
+            <button onclick="val('*')" class="one">*</button>
+            <button onclick="val('+')" class="one">+</button>
+            <button onclick="val('-')" class="one">-</button>
+            <button onclick="val('/')"  class="one">/</button>
+        </div>
+        <div id="two">
+            <button onclick="num(7)" class="two">7</button>
+            <button onclick="num(8)" class="two">8</button>
+            <button onclick="num(9)" class="two">9</button>
+        </div>
+        <div id="thr">
+            <button onclick="num(4)" class="thr">4</button>
+            <button onclick="num(5)" class="thr">5</button>
+            <button onclick="num(6)" class="thr">6</button>
+        </div>
+        <div id="four">
+            <button onclick="num(1)" class="four">1</button>
+            <button onclick="num(2)" class="four">2</button>
+            <button onclick="num(3)" class="four">3</button>
+        </div>
+        <div>
+            <button onclick="clr('')" class="five">C</button>
+            <button onclick="num(0)" class="five">0</button>
+            <button onclick="result('=')" class="five">=</button>
+
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
